@@ -1,0 +1,28 @@
+body{
+  background: lightblue;
+}
+.left{
+  background: red;
+  width: 50%;
+}
+.right{
+  background: blue;
+  width: 50%;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 750px){
+  body{
+    background: lightgreen;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left{
+    display: none;
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+}
